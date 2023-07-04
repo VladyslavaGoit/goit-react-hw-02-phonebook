@@ -43,6 +43,7 @@ class App extends Component {
      
   render() {
     const filteredContacts = this.filterContacts()
+    
     return (
       <div className={css.container}>
         <h1 className={css.title}>Phonebook</h1>
